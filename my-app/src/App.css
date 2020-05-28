@@ -4,6 +4,16 @@ td {
   background-color: red;
 }
 
+.reset-button {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.reset-button:hover {
+  background-color: yellow;
+}
+
 table {
   border: 'solid';
   margin: auto;

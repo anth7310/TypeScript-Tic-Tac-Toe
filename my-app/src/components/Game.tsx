@@ -33,7 +33,7 @@ export default class Game extends Component<IProps, IState> {
             player: true, // true is X, false is O
             winner: '', // '' if game still continuing
             ai: true,
-            playerStart: true // if human is starting 'x', otherwise is second player
+            playerStart: false // if human is starting 'x', otherwise is second player
         }
     }
 
@@ -90,7 +90,6 @@ export default class Game extends Component<IProps, IState> {
                 }
             }
         )
-
     }
 
     componentDidMount() {
@@ -100,8 +99,6 @@ export default class Game extends Component<IProps, IState> {
             this.computerClickSquare()
         }
     }
-
-    
 
     render() {
         return (

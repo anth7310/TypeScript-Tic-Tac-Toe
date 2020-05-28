@@ -20,7 +20,7 @@ export default class Board extends Component<IProps, IState> {
     }
 
     renderBoard() {
-        const tiles = this.state.tiles;
+        let tiles = this.state.tiles;
         return (
             <table>
                 <tbody>
